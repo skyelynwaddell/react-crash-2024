@@ -1,0 +1,33 @@
+.card {
+  background-color: rgba(128, 128, 128, 0.806);
+  color: rgb(217, 217, 217);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.468);
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  margin: 5px;
+}
+
+.cardImage, .cardImage2{
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.cardTitle,
+.cardDescription {
+  background-color: rgba(112, 112, 112, 0.716);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.cardDescription {
+  font-size: large;
+}
